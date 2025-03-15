@@ -20,7 +20,7 @@ namespace ejercicio33
             Datos = new int[filas, columnas];
         }
 
-        // Método para llenar la matriz con una fórmula específica
+        // Método para llenar la matriz 
         public void Llenar(Func<int, int, int> formula)
         {
             for (int i = 0; i < Filas; i++)
